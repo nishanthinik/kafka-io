@@ -1,0 +1,27 @@
+site_name: Siddhi-IO-Kafka
+extra_css:
+- stylesheets/extra.css
+extra_javascript:
+- javascripts/extra.js
+site_favicon: images/favicon.ico
+extra:
+  logo: images/siddhi-logo-w.svg
+  palette:
+    primary: teal
+    accent: teal
+google_analytics:
+- UA-103065-28
+- auto
+pages:
+- Welcome to WSO2 Siddhi IO Kafka: index.md
+- API Docs:
+  - 4.0.13: api/4.0.13.md
+  - 4.0.12: api/4.0.12.md
+  - 4.0.11: api/4.0.11.md
+  - 4.0.10: api/4.0.10.md
+  - 4.0.9: api/4.0.9.md
+  - 4.0.8: api/4.0.8.md
+  - 4.0.7: api/4.0.7.md
+  - latest: api/latest.md
+- License: license.md
+theme: material
